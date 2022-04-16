@@ -316,5 +316,9 @@ body {
         content: '';
         position: absolute;
     }
+    
+        #valid-text1 {
+        padding-bottom: 8%;
+    }
 
 }
