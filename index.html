@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="pod.css">
+    <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+<body>
+
+
+<div class="wrapper">
+    <div class="pod-wrapper">
+        <img class="logo" src="assets/desktop/logo.svg" alt="">
+    </div>
+    <div class="exp">
+    <div class="background-photo">
+        <img class="host" src="assets/desktop/image-host.jpg" alt="">
+        <img class="dots" src="assets/desktop/bg-pattern-dots.svg" alt="">
+    </div>
+
+    <div role="main" class="main-container">
+        <h1 class="main-container-title-green">Publish your podcasts</h1>
+        <p class="main-container-title-white">everywhere.</p>
+
+        <p class="main-container-text">Upload your audio to Pod with a single click. We’ll then distribute your podcast
+            to Spotify,
+            Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+
+        <form id="form" action="">
+            <label for="email"></label>
+            <div class="input-container">
+                <input placeholder="Email address" type="email" id="email" name="email" required>
+                <div class="email-input">
+                    <button id="btn" class="email-button" type="submit">Request Access</button>
+                </div>
+            </div>
+        </form>
+        <span id="valid-text"></span>
+
+        <div role="navigation" class="navigation">
+            <img class="navigation-icons" src="assets/desktop/spotify.svg" alt="">
+            <img class="navigation-icons" src="assets/desktop/apple-podcast.svg" alt="">
+            <img class="navigation-icons" src="assets/desktop/google-podcasts.svg" alt="">
+            <img class="navigation-icons" src="assets/desktop/pocket-casts.svg" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="mobile">
+    <img class="bg-mobile" src="assets/mobile/image-host.jpg" alt="">
+    <div>
+    <img class="logo-mobile" src="assets/desktop/logo.svg" alt="">
+    </div>
+    <h1 class="main-container-title-green">Publish your podcasts</h1>
+    <p class="main-container-title-white">everywhere.</p>
+
+    <p class="main-container-text">Upload your audio to Pod with a single click. We’ll then distribute your podcast
+        to Spotify,
+        Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+
+    <div role="navigation" class="navigation">
+
+        <img class="navigation-icons" src="assets/desktop/spotify.svg" alt="">
+        <img class="navigation-icons" src="assets/desktop/apple-podcast.svg" alt="">
+        <img class="navigation-icons" src="assets/desktop/google-podcasts.svg" alt="">
+        <img class="navigation-icons" src="assets/desktop/pocket-casts.svg" alt="">
+    </div>
+
+    <form id="form1" action="">
+        <label for="email1"></label>
+        <div class="input-container">
+            <input placeholder="Email address" type="email" id="email1" name="email" required>
+            <div class="email-input">
+                <button id="btn1" class="email-button" type="submit">Request Access</button>
+            </div>
+        </div>
+    </form>
+    <span id="valid-text1"></span>
+
+
+</div>
+
+
+<script src="pod.js"></script>
+</body>
+</html>
